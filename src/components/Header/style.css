@@ -1,0 +1,52 @@
+
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.logo {
+    height: 60px;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.login {
+    padding: 8px 20px;
+    border: 1px solid black;
+    background: none;
+    border-radius: 10px;
+}
+
+.signup {
+    padding: 8px 20px;
+    border: 1px solid black;
+    background: black;
+    border-radius: 11px;
+    color: white;
+}
