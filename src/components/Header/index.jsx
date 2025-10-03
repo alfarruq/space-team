@@ -15,7 +15,7 @@ function Header() {
                 <li><Link to={'/blog'} >Blog</Link></li>
                 <li><Link to={'/'} >Biz haqimizda</Link></li>
                 <li><button className='login' >Kirish</button></li>
-                <li><button  className='signup' >Ro'yxatdan o'tish</button></li>
+                <li><button className='signup' >Ro'yxatdan o'tish</button></li>
             </ul>
         </header>
     );
