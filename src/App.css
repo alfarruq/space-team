@@ -7,3 +7,84 @@
     max-width: 1280px;
     margin: 0 auto;
 }
+
+.home {
+    padding: 20px;
+  }
+  
+  .hero {
+    background: #1e3a8a; /* темно-синий */
+    color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .hero h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  
+  .hero-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #1e3a8a;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .tests h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .test-cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .card button {
+    margin-top: 10px;
+    background: #1e3a8a;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .stat-item h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1e3a8a;
+  }
+  .hero_img{
+    width: 200px;
+  }
