@@ -5,20 +5,20 @@ import './style.css'
 
 
 
-function Login() {
+function Signup() {
     return ( 
         <div className="wrapper-login" >
-                <h3 className='login-logo' >Space Team Login</h3>
+                <h3 className='login-logo' >Space Team Signup</h3>
                 <form action="">
                     <input placeholder='login..' type="text" />
                     <input placeholder='password' type="password" />
                     <button>Login</button>
                 </form>
                 <div className='registor' >
-                   <Link to='/signup' >Sign up</Link>
+                   <Link to='/login' >Login</Link>
                 </div>
         </div>
      );
 }
 
-export default Login;
+export default Signup;

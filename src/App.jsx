@@ -8,6 +8,8 @@ import Courses from './pages/Courses'
 import Tests from './pages/Tests'
 import Blog from './pages/Blog'
 import AboutUs from './pages/AboutUs'
+import Login from './pages/Login'
+import Signup from './pages/Signup'
 
 
 
@@ -22,6 +24,8 @@ function App() {
         <Route path='/courses' element={<Courses />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/aboutus' element={<AboutUs />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<Signup />} />
       </Routes>
 
       <Footer />
