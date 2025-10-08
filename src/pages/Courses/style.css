@@ -1,0 +1,23 @@
+.course {
+    width: 400px;
+    min-height: 360px;
+    text-align: center;
+
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:  10px;
+}
+
+.course img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.courses{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
