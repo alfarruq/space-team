@@ -13,8 +13,8 @@ function Header() {
                 <li><Link to={'/tests'} >Tests</Link></li>
                 <li><Link to={'/blog'} >Blog</Link></li>
                 <li><Link to={'/'} >Biz haqimizda</Link></li>
-                <li>  <Link to={'/login'} ><button className='login' >Kirish</button></Link> </li>
-                <li><button className='signup' >Ro'yxatdan o'tish</button></li>
+                <li><Link to={'auth/login'} ><button className='login' >Kirish</button></Link> </li>
+                <li><Link to={'auth/signup'} > <button className='signup' >Ro'yxatdan o'tish</button></Link></li>
             </ul>
         </header>
     );

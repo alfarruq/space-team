@@ -15,7 +15,7 @@ function Login() {
                     <button>Login</button>
                 </form>
                 <div className='registor' >
-                   <Link to='/signup' >Sign up</Link>
+                   <Link to='/auth/signup' >Sign up</Link>
                 </div>
         </div>
      );

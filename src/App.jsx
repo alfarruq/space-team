@@ -10,25 +10,14 @@ import Blog from './pages/Blog'
 import AboutUs from './pages/AboutUs'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
+import Root from './root/root'
 
 
 
 function App() {
   return (
     <>
-      <Header />
-
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/tests' element={<Tests />} />
-        <Route path='/courses' element={<Courses />} />
-        <Route path='/blog' element={<Blog />} />
-        <Route path='/aboutus' element={<AboutUs />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/signup' element={<Signup />} />
-      </Routes>
-
-      <Footer />
+      <Root />
     </>
   )
 }
